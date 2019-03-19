@@ -1,0 +1,45 @@
+{
+    "user": [
+      {
+        "id": 1,
+        "username": "Yosua",
+        "password": "satuduatiga"
+      },
+      {
+        "username": "asd",
+        "email": "aasd@asd",
+        "password": "12345",
+        "id": 2
+      }
+    ],
+    "product": [
+      {
+        "name": "Shirt O Neck",
+        "desc": "Lorem ipsum dolor sit amet, consectetur adpiscing elit",
+        "price": 75000,
+        "src": "https://www.jakartanotebook.com/images/products/99/63/19075/2/kaos-polos-katun-pria-o-neck-size-m-81402b-or-t-shirt-black-24.jpg",
+        "id": 1
+      },
+      {
+        "id": 2,
+        "name": "Hoodie standart",
+        "desc": "Lorem ipsum dolor sit amet, consectetur adpiscing elit",
+        "price": 55000,
+        "src": "https://www.jakartanotebook.com/images/products/99/63/19075/2/kaos-polos-katun-pria-o-neck-size-m-81402b-or-t-shirt-black-24.jpg"
+      },
+      {
+        "id": 3,
+        "name": "T-Shirt V Neck",
+        "desc": "Lorem ipsum dolor sit amet, consectetur adpiscing elit",
+        "price": 65000,
+        "src": "https://www.jakartanotebook.com/images/products/99/63/19075/2/kaos-polos-katun-pria-o-neck-size-m-81402b-or-t-shirt-black-24.jpg"
+      },
+      {
+        "name": "asd",
+        "desc": "ad",
+        "price": "\t123",
+        "src": "231",
+        "id": 4
+      }
+    ]
+  }
