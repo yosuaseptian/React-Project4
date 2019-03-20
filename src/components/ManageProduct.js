@@ -123,7 +123,7 @@ class ManageProduct extends Component {
         if(this.props.username !== ''){
             return (
                 <div className="container">
-                    {["satu", "dua", "tiga"]}
+                    
                     <h1 className="display-4 text-center">Manage Product</h1>
                     <table className="table table-hover mb-5">
                             <thead>
