@@ -405,7 +405,7 @@ class Cart extends Component {
             <td>{item.productId}</td>
             <td>{item.name}</td>
             <td>{item.desc}</td>
-            <td>Rp {item.price}</td>
+            <td>Rp {this.formatterIDR.format(item.price)}</td>
             <td>
               <img className="list" src={item.src} alt={item.src} />
             </td>
