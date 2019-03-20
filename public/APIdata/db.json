@@ -1,45 +1,120 @@
 {
-    "user": [
-      {
-        "id": 1,
-        "username": "Yosua",
-        "password": "satuduatiga"
-      },
-      {
-        "username": "asd",
-        "email": "aasd@asd",
-        "password": "12345",
-        "id": 2
-      }
-    ],
-    "product": [
-      {
-        "name": "Shirt O Neck",
-        "desc": "Lorem ipsum dolor sit amet, consectetur adpiscing elit",
-        "price": 75000,
-        "src": "https://www.jakartanotebook.com/images/products/99/63/19075/2/kaos-polos-katun-pria-o-neck-size-m-81402b-or-t-shirt-black-24.jpg",
-        "id": 1
-      },
-      {
-        "id": 2,
-        "name": "Hoodie standart",
-        "desc": "Lorem ipsum dolor sit amet, consectetur adpiscing elit",
-        "price": 55000,
-        "src": "https://www.jakartanotebook.com/images/products/99/63/19075/2/kaos-polos-katun-pria-o-neck-size-m-81402b-or-t-shirt-black-24.jpg"
-      },
-      {
-        "id": 3,
-        "name": "T-Shirt V Neck",
-        "desc": "Lorem ipsum dolor sit amet, consectetur adpiscing elit",
-        "price": 65000,
-        "src": "https://www.jakartanotebook.com/images/products/99/63/19075/2/kaos-polos-katun-pria-o-neck-size-m-81402b-or-t-shirt-black-24.jpg"
-      },
-      {
-        "name": "asd",
-        "desc": "ad",
-        "price": "\t123",
-        "src": "231",
-        "id": 4
-      }
-    ]
-  }
+  "user": [
+    {
+      "id": 1,
+      "username": "Yosua",
+      "password": "satuduatiga"
+    },
+    {
+      "username": "asd",
+      "email": "aasd@asd",
+      "password": "12345",
+      "id": 2
+    },
+    {
+      "username": "josh",
+      "email": "josh@yahoo.com",
+      "password": "12345",
+      "id": 3
+    }
+  ],
+  "product": [
+    {
+      "name": "Shirt O Neck",
+      "desc": "Lorem ipsum dolor sit amet, consectetur adpiscing elit",
+      "price": 75000,
+      "src": "https://www.jakartanotebook.com/images/products/99/63/19075/2/kaos-polos-katun-pria-o-neck-size-m-81402b-or-t-shirt-black-24.jpg",
+      "id": 1
+    },
+    {
+      "name": "Hoodie Biasa",
+      "desc": "Lorem ipsum dolor sit amet, consectetur adpiscing elit",
+      "price": 80000,
+      "src": "https://id-live-01.slatic.net/original/e613c9a94c3acaa3fd605e208e0a3f9a.jpg",
+      "id": 2
+    },
+    {
+      "name": "T-Shirt V Neck",
+      "desc": "Lorem ipsum dolor sit amet, consectetur adpiscing elit",
+      "price": 65000,
+      "src": "https://images.express.com/is/image/expressfashion/0036_05051803_0303?cache=on&wid=361&fmt=jpeg&qlt=75,1&resmode=sharp2&op_usm=1,1,5,0&defaultImage=Photo-Coming-Soon",
+      "id": 3
+    },
+    {
+      "name": "Timberland Shoes",
+      "desc": "Asli Loh",
+      "price": 1000000,
+      "src": "https://murahgrosir.com/wp-content/uploads/2013/11/sepatu-timberland.jpg",
+      "id": 4
+    },
+    {
+      "name": "Timberland Watch",
+      "desc": "Original",
+      "price": 800000,
+      "src": "https://ecs7.tokopedia.net/img/cache/700/product-1/2015/8/7/411565/411565_127c328f-a808-49bd-981d-8b14900c793f.jpg",
+      "id": 5
+    }
+  ],
+  "cart": [
+    {
+      "productId": 2,
+      "username": "Yosua",
+      "name": "Hoodie standart",
+      "qty": 8,
+      "desc": "Lorem ipsum dolor sit amet, consectetur adpiscing elit",
+      "price": 55000,
+      "src": "https://www.jakartanotebook.com/images/products/99/63/19075/2/kaos-polos-katun-pria-o-neck-size-m-81402b-or-t-shirt-black-24.jpg",
+      "id": 1
+    },
+    {
+      "username": "josh",
+      "qty": 1,
+      "name": "T-Shirt V Neck",
+      "desc": "Lorem ipsum dolor sit amet, consectetur adpiscing elit",
+      "price": 65000,
+      "src": "https://images.express.com/is/image/expressfashion/0036_05051803_0303?cache=on&wid=361&fmt=jpeg&qlt=75,1&resmode=sharp2&op_usm=1,1,5,0&defaultImage=Photo-Coming-Soon",
+      "productId": 3,
+      "id": 2
+    },
+    {
+      "username": "josh",
+      "qty": 1,
+      "name": "Hoodie Biasa",
+      "desc": "Lorem ipsum dolor sit amet, consectetur adpiscing elit",
+      "price": 80000,
+      "src": "https://id-live-01.slatic.net/original/e613c9a94c3acaa3fd605e208e0a3f9a.jpg",
+      "productId": 2,
+      "id": 3
+    },
+    {
+      "username": "josh",
+      "qty": 1,
+      "name": "Shirt O Neck",
+      "desc": "Lorem ipsum dolor sit amet, consectetur adpiscing elit",
+      "price": 75000,
+      "src": "https://www.jakartanotebook.com/images/products/99/63/19075/2/kaos-polos-katun-pria-o-neck-size-m-81402b-or-t-shirt-black-24.jpg",
+      "productId": 1,
+      "id": 4
+    },
+    {
+      "username": "josh",
+      "qty": 1,
+      "name": "Timberland Shoes",
+      "desc": "Asli Loh",
+      "price": 1000000,
+      "src": "https://murahgrosir.com/wp-content/uploads/2013/11/sepatu-timberland.jpg",
+      "productId": 4,
+      "id": 5
+    },
+    {
+      "username": "josh",
+      "qty": 1,
+      "name": "Timberland Watch",
+      "desc": "Original",
+      "price": 800000,
+      "src": "https://ecs7.tokopedia.net/img/cache/700/product-1/2015/8/7/411565/411565_127c328f-a808-49bd-981d-8b14900c793f.jpg",
+      "productId": 5,
+      "id": 6
+    }
+  ]
+}

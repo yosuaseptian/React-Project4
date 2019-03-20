@@ -10,8 +10,11 @@ import Header from './Header'
 import Login from './Login'
 import Register from './Register'
 import ManageProduct from './ManageProduct'
-import ProductItem from './ProductItem';
+// import ProductItem from './ProductItem';
 import DetailProduct from './DetailProduct';
+import Cart from './Cart'
+// import ChekOutCart from './CheckOutCart'
+// import CheckOutCart from './CheckOutCart';
 
 const cookie = new cookies()
 
@@ -42,7 +45,9 @@ class App extends Component {
                     <Route path="/login" component={Login} />
                     <Route path="/register" component={Register} />
                     <Route path="/manageproduct" component={ManageProduct}/>
+                    <Route path="/cart" component={Cart}/>
                     <Route path="/detailproduct/:asdfg" component={DetailProduct}/>
+                    {/* <Route path="/CheckOutCart" component={CheckOutCart}/> */}
                 </div>
             </BrowserRouter>
         )

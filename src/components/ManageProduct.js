@@ -6,6 +6,15 @@ import {Redirect} from 'react-router-dom'
 
 class ManageProduct extends Component {
 
+    constructor(props) {
+        super(props);
+        this.formatterIDR = new Intl.NumberFormat('id', {
+            style: 'currency',
+            currency: 'IDR',
+            minimumFractionDigits: 0
+          })    
+      }
+
     state = {
         products: [],
         selectedId: 0
@@ -30,7 +39,7 @@ class ManageProduct extends Component {
                         <td>{item.id}</td>
                         <td>{item.name}</td>
                         <td>{item.desc}</td>
-                        <td>{item.price}</td>
+                        <td>{this.formatterIDR.format(item.price)}</td>
                         <td><img className="list" src={item.src} alt={item.desc}></img></td>
                         <td>
                             <button onClick={() => {this.editProduct(item.id)}} className="btn btn-primary mr-2">Edit</button>
@@ -76,12 +85,16 @@ class ManageProduct extends Component {
             price: harga,
             src:sumber
         }).then(res => {
-            this.getProduct()
+            this.getProduct();
+            this.name.value = ""
+            this.desc.value = ""
+            this.price.value = ""
+            this.pict.value = ""
         })
     }
 
     deleteProduct = (id) => {
-        axios.delete('http://localhost:1996/products/' + id)
+        axios.delete('http://localhost:1992/product/' + id)
         .then(res => {
             this.getProduct()
         })
